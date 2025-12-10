@@ -599,4 +599,44 @@ h3,
     font-size: 0.8rem;
   }
 }
+/* =========================
+   MOBILE HEADER LAYOUT
+   ========================= */
+@media (max-width: 768px) {
+  .site-header {
+    padding: 0.75rem 1rem;
+  }
+
+  /* Делаем шапку в несколько строк */
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  /* Логотип поменьше */
+  .logo {
+    font-size: 1rem;
+  }
+
+  /* Меню можно переносить на новую строку */
+  .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.25rem;
+    font-size: 0.9rem;
+  }
+
+  /* Переключатель языка уводим в правый край,
+     но оставляем в пределах экрана */
+  .lang-switch {
+    align-self: flex-end;
+    margin-top: 0.25rem;
+  }
+
+  .lang-btn {
+    padding: 0.3rem 0.9rem;
+    font-size: 0.8rem;
+  }
+}
 

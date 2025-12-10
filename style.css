@@ -540,3 +540,63 @@ h3,
   font-family: "Playfair Display", "Times New Roman", serif;
   letter-spacing: 0.03em;
 }
+/* =========================
+   MOBILE HEADER LAYOUT
+   ========================= */
+
+@media (max-width: 768px) {
+  .site-header {
+    padding: 0.5rem 0;
+  }
+
+  .header-inner {
+    padding: 0 1.2rem;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+  }
+
+  .logo {
+    font-size: 0.9rem;
+    margin-right: 1rem;
+  }
+
+  .main-nav {
+    flex: 1 1 100%;
+    order: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .main-nav a {
+    padding: 0;
+  }
+
+  .lang-switch {
+    order: 3;
+    margin-left: 0;
+  }
+
+  .lang-btn {
+    padding: 0.25rem 0.7rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* ещё сильнее ужимаем для очень маленьких экранов */
+
+@media (max-width: 480px) {
+  .header-inner {
+    padding: 0 0.8rem;
+  }
+
+  .main-nav {
+    justify-content: space-between;
+  }
+
+  .main-nav a {
+    font-size: 0.8rem;
+  }
+}
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shop – Nasiba Karimova</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Общие стили сайта -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Отдельные стили для страницы Shop -->
+    <link rel="stylesheet" href="shop.css" />
+  </head>
+  <body>
+    <!-- ==============================
+       HEADER (можешь взять отсюда
+       ИЛИ скопировать из about.html,
+       если он у тебя уже там настроен)
+  =============================== -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="logo">HOME</a>
+
+        <nav class="main-nav">
+          <a href="index.html#services">Services</a>
+          <a href="work.html">Work</a>
+          <a href="shop.html" class="is-active">Shop</a>
+          <a href="about.html">About</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <div class="lang-switch">
+          <button class="lang-btn is-active">EN</button>
+          <a href="shop-ru.html" class="lang-btn">RU</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==============================
+       SHOP
+  =============================== -->
+    <main>
+      <section class="shop-section">
+        <div class="shop-inner">
+          <!-- ЛЕВАЯ КОЛОНКА С ТЕКСТОМ -->
+          <aside class="shop-side">
+            <p class="shop-side-label">SHOP</p>
+            <p class="shop-side-phrase">
+              Stationery, prints and small objects<br />
+              featuring gentle, story-driven<br />
+              illustrations by Nasiba K.
+            </p>
+          </aside>
+
+          <!-- ПРАВАЯ ЧАСТЬ — КАРТОЧКИ -->
+          <div class="shop-main">
+            <h2 class="shop-title">Paper & Small Goods</h2>
+            <p class="shop-lead">
+              A small selection of illustrated notebooks, stickers and printed
+              goods, created for art markets and quiet everyday moments.
+            </p>
+
+            <div class="shop-grid">
+              <!-- CARD 1 – NOTEBOOK -->
+              <article class="shop-card">
+                <div class="shop-card-image">
+                  <a href="./images/shop1.jpg" target="_blank">
+                    <img
+                      src="./images/shop1.jpg"
+                      alt="Illustrated notebook with a portrait cover"
+                    />
+                  </a>
+                </div>
+                <div class="shop-card-body">
+                  <h2 class="shop-card-title">Portrait Notebook</h2>
+                  <p class="shop-card-text">
+                    Spiral-bound notebook featuring an original portrait
+                    illustration, printed in warm, rich tones for everyday notes
+                    and stories.
+                  </p>
+                </div>
+              </article>
+
+              <!-- CARD 2 – MARKET TABLE -->
+              <article class="shop-card">
+                <div class="shop-card-image">
+                  <a href="./images/shop2.jpg" target="_blank">
+                    <img
+                      src="./images/shop2.jpg"
+                      alt="Art market table with prints, notebooks and baskets"
+                    />
+                  </a>
+                </div>
+                <div class="shop-card-body">
+                  <h2 class="shop-card-title">Market Table</h2>
+                  <p class="shop-card-text">
+                    A glimpse of Nasiba’s art market display with framed prints,
+                    bookmarks, notebooks and handwoven baskets arranged
+                    together.
+                  </p>
+                </div>
+              </article>
+
+              <!-- CARD 3 – STICKERS -->
+              <article class="shop-card">
+                <div class="shop-card-image">
+                  <a href="./images/shop3.jpg" target="_blank">
+                    <img
+                      src="./images/shop3.jpg"
+                      alt="Basket filled with portrait illustration stickers"
+                    />
+                  </a>
+                </div>
+                <div class="shop-card-body">
+                  <h2 class="shop-card-title">Sticker Collection</h2>
+                  <p class="shop-card-text">
+                    A basket of matte stickers with soft portrait illustrations,
+                    floral details and warm colours — perfect for sketchbooks,
+                    gifts and letters.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

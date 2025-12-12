@@ -525,21 +525,24 @@ main {
 
 /* Основной текст сайта */
 body {
-  font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
+  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", sans-serif;
+  font-weight: 400;
 }
 
 /* Заголовки, логотип, крупные надписи */
 h1,
 h2,
 h3,
-.section-title,
 .hero-title,
+.section-title,
 .logo,
 .main-nav a {
-  font-family: "Playfair Display", "Times New Roman", serif;
-  letter-spacing: 0.03em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
+
 /* =========================
    MOBILE HEADER LAYOUT
    ========================= */
@@ -639,4 +642,3 @@ h3,
     font-size: 0.8rem;
   }
 }
-
